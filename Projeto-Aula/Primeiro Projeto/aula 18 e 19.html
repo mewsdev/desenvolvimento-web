@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabelas</title>
+</head>
+<body>
+	<h1>Comandos necessários para a criação de tabelas:</h1><br>
+
+		<p> table border="2" para abrir uma tabela e selecionar a borda
+			tr para a linha da tabela <br>
+			td e th para os dados/celulas da tabela<br>
+			Todas essas três em ordem de abertura</p>
+
+			<h2>Produtos</h2>
+	<table border="2">
+		<tr>
+			<th>Código</th>
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+
+		<tr>
+			<td>001</td>
+			<td>Notebook</td>
+			<td>R$3000.99</td>
+		</tr>
+
+		<tr>
+			<td>002</td>
+			<td>Tablet</td>
+			<td>R$1000.99</td>
+		</tr>
+	</table><br>
+	<hr>
+
+		<h1>Exercicio da Tabela para fixar</h1>
+
+		<table border="2">
+			<tr>
+				<th>table</th>
+				<th>border="num"</th>
+				<th>tr</th>
+				<th>th</th>
+				<th>td</th>
+			</tr>	
+			<tr>
+				<td> criar uma tabela </td>
+				<td> é a borda da tabela e seu nº</td>
+				<td> é uma <strong>linha</strong> dessa tabela </td>
+				<td> dar ênfase ao título/item </td>
+				<td> é a listagem comum </td>
+			</tr>
+
+		</table>
+		<hr><br>
+		<h1>Aula 19</h1>
+
+		<table border="2" width="100%">
+			<tr>
+				<th>table</th>
+				<th>border="num"</th>
+				<th>tr</th>
+				<th>th</th>
+				<th>td</th>
+				<th>links</th>
+			</tr>	
+			<tr>
+				<td> criar uma tabela </td>
+				<td> é a borda da tabela e seu nº</td>
+				<td> é uma <strong>linha</strong> dessa tabela </td>
+				<td> dar ênfase ao título/item </td>
+				<td> é a listagem comum </td>
+				<td> <a href="index.html">HOME</a></td>
+			</tr>
+
+		</table>
+		<hr><br>
+
+		<h1>Adicionando imagens com img src</h1>
+		<table>
+			
+			<td>
+				<img src="arquivos/imagens/uni.jpg" width="100%">
+			</td>
+
+		</table><hr><br>
+
+		<h1>Adicionando rowspan e colspan</h1>
+		<table border="3" width="300">
+			
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+
+			<tr>
+				<td>001</td>
+				<td>Bolacha</td>
+				<td>R$2.00</td>
+			</tr>
+
+			<tr>
+				<td>002</td>
+				<td>Sorvete</td>
+				<td>R$5.00</td>
+			</tr>
+
+			<tr>
+				<td>003</td>
+				<td>Chocolate</td>
+				<td>R$3.00</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" rowspan="2">Desconto:</td>
+				<td colspan="2">Cupom1 -R$1.50</td>
+			</tr>
+			<tr>
+				<td colspan="2">Cupom2 -R$0.50</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">Total:</td>
+				<td colspan="2">R$8.00</td>
+			</tr>
+		</table>
+</body>
+</html>
