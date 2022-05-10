@@ -1,0 +1,52 @@
+  body{
+    font-family: 'Baloo Tamma', cursive;
+    background: #80ced6;
+    background-image: url(imagens/wand.png);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  h1 {
+    /*background-color: #80ced7;*/
+  }
+  
+  div {
+    /*background-color: #d5f4e6; */
+  }
+  
+  span {
+    /*background-color: #f18973; */
+  }
+  .texto{
+      font-family: cursive;
+      font-size: 150%;
+      color: lightcoral;
+  }
+  .italico{
+    font-style: italic;
+  }
+  
+  .negrito{
+      font-weight: 900;
+  }
+
+  .underline{
+      text-decoration: underline;
+  }
+
+  h2{
+    text-align:center;   
+    width: 100%;
+    margin: 0px auto;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 17%;
+    position: absolute;
+    margin-top: -30px;
+    
+    text-shadow: -1px -1px 0px $clr-blue,
+      3px 3px 0px $clr-blue,
+      6px 6px 0px $clr-blue-900;
+  }

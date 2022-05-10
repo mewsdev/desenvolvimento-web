@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Tags Divs, Span e Bordas </title>
+
+    </head>
+    <style type="text/css">
+
+        #topo {
+            background: blue;
+        }
+
+        #produto{
+            background: pink;
+        }
+
+        .produto{
+            background: gray;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        #claro{
+            background-color: cornflowerblue;
+            margin: 2%;
+        }
+
+        #escuro{
+            border: 3px;
+            color: aquamarine;
+            background: pink;
+        }
+
+        #border{
+            border: 10px solid greenyellow;
+        }
+
+        #border2{
+            border: 15px groove fuchsia;
+            background-color: lightpink;
+        }
+    </style>
+        <body>
+
+            <h1 style="color: blue;"> Tags e Divs </h1>
+            <p>
+                Div e Span são estruturas para organizar melhor o site
+                Div= Divisão para logos, caixas de textos etc
+            </p>
+
+            <div id="topo">
+
+                <img src="imagem/xo.png" width="200">
+                <ul id="border">
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Jogos</li>
+                </ul>
+            </div>
+
+            <div id="produto">
+                <div class="produto">
+                    Produto 1
+                </div>
+                <div class="produto">
+                    Produto 2
+                </div>
+                <div>
+                    Produto 3
+                </div>
+
+            </div>
+
+            <div id="claro">
+
+                Div são feitas para estruturar o site. Por padrão ela ocupa todo o espaçamento da tela.
+                <div>Utiliza-se ID e class para dar cor e formatações ao texto</div>
+
+            </div>
+
+            <span id="escuro">É basicamente uma DIV. É um elemento do tipo INLINE style, os conteudos ficam um ao lado do outro, já o DIV fica um abaixo do outro.</span>
+            
+            <div id="border2">
+                Border = Borda, pode-se utilizar em todos os elementos e é necessário 3 elementos no codigo:
+                <ul>A espessura (px / % / etc)</ul>
+                <ul>solid/outset/dotted/dashed etc (ver mais no css bordes)</ul>
+                <ul>por fim a cor da borda, que dá pra colocar 4 cores diferentes no sentido horario</ul>
+                <ul>None =  sem bordas</ul>
+                <ul> tem mais uma maneira para ter um maior controle:
+                    width = espessura</ul>
+                <ul>border-style para definir o estilo da borda</ul>
+            </div>
+
+            <hr><br>
+            <a href="C:\Users\Duda\OneDrive\Área de Trabalho\Projeto Aula\Primeiro Projeto\index.html">
+            <strong>HOME</strong>
+        </a>
+
+        </body>
+
+</html>
