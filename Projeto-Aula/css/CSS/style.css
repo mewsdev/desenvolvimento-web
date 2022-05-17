@@ -1,7 +1,7 @@
   body{
     font-family: 'Baloo Tamma', cursive;
     background: #80ced6;
-    background-image: url(imagens/wand.png);
+    /*background-image: url(imagens/wand.png);*/
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-position: center center;
@@ -61,7 +61,7 @@
       6px 6px 0px #86d1db;
   }
 
-  .lista{
+  .lista {
 
     font-family: cursive;
     color: bisque;
@@ -79,13 +79,34 @@
     clear: right;
   }
 
-  .projetos{
+  .projetos {
     background: #e5e5e5;
-    padding: 10px;
-    width: 20%;
-    margin: 20px;
-    margin-left: 5%;
-    float: left;
-    clear: right;
 
+    position: relative;
+    top: 300px;
+
+    padding: 10px;
+    width: 90%;
+    margin-right : 20px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    float: left;
+    clear: left;
+
+  }
+
+  .sobre {
+    clear: right;
+    clear: both;
+    background: #e5e5e5;
+
+    position: relative;
+    top: 120px;
+    left: 5%;
+    
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 400px;
+    float: left;
+  
   }
