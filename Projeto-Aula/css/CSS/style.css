@@ -96,7 +96,7 @@
   }
 
   .projetos {
-    background: #e5e5e5;
+ 
 
     position: relative;
     top: 150px;
@@ -108,7 +108,7 @@
     margin-left: 5%;
     margin-bottom: 350px;
     float: left;
-    clear: left;
+    clear: right;
 
   }
 
@@ -146,13 +146,13 @@
   a:link {
     color: green;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: none; 
     font-family: cursive;
   }
   a:visited {
     color: lightcoral;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline #80ced6;
     font-family: cursive;
   }
   a:hover {
