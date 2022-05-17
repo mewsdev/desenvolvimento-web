@@ -7,17 +7,6 @@
     background-position: center center;
   }
   
-  h1 {
-    /*background-color: #80ced7;*/
-  }
-  
-  div {
-    /*background-color: #d5f4e6; */
-  }
-  
-  span {
-    /*background-color: #f18973; */
-  }
   .texto{
       font-family: cursive;
       font-size: 150%;
@@ -43,23 +32,60 @@
     padding-bottom: 20px;
     padding-left: 20px;*/
 
-    padding: 100px 100px 100px 100px;
-    width: 200px;
-    margin: 80px 20px 20px 20px;
+    position:absolute;
+    left: 50px;
+    top: 200px;
+
+  }
+  
+  .unicornio {
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+
   }
 
-  h2{
-    text-align:center;   
-    width: 100%;
-    margin: 0px auto;
+  .mews{
     color: white;
-    font-size: 80px;
     letter-spacing: 5px;
-    top: 17%;
-    position: absolute;
-    margin-top: -30px;
-    
-    text-shadow: -1px -1px 0px $clr-blue,
-      3px 3px 0px $clr-blue,
-      6px 6px 0px $clr-blue-900;
+    position:absolute;
+    top: 10px;
+    left: 220px;
+    font-family: cursive;
+    font-size: 400%;
+    color: lightcoral;
+
+    text-shadow: -1px -1px 0px #97e1eb,
+      3px 3px 0px #85cdd6,
+      6px 6px 0px #86d1db;
+  }
+
+  .lista{
+
+    font-family: cursive;
+    color: bisque;
+    font-size: 30px;
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .clear {
+    clear: right;
+  }
+
+  .projetos{
+    background: #e5e5e5;
+    padding: 10px;
+    width: 20%;
+    margin: 20px;
+    margin-left: 5%;
+    float: left;
+    clear: right;
+
   }
