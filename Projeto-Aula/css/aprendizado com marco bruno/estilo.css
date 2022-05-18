@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+
+}
+
+.example {
+    color: darkorchid;
+    text-align: justify;
+}
+.example::after {
+    content: ''; /* É IMPORTANTE COLOCAR ESSA FUNÇÃO PARA SEPARAR OS 3 BLOCOS, AO INVES DE CRIAR OUTRA LINHA E USAR COMO ISCA. */
+    display: inline-block;
+    width: 100%;
+}
+.example_item {
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+}
+
+.example_item_sobre {
+    background-color: aliceblue;
+}
+
+.example_item_objetivo {
+    background-color: rgba(197, 219, 117, 0.671);
+
+}
+
+.example_item_projetos {
+    background-color: cornflowerblue;
+}
+
+

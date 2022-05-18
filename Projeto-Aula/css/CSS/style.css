@@ -142,7 +142,9 @@
   }
 
   links
-
+  a {
+    text-decoration: none;
+  }
   a:link {
     color: green;
     background-color: transparent;
@@ -152,7 +154,7 @@
   a:visited {
     color: lightcoral;
     background-color: transparent;
-    text-decoration: underline #80ced6;
+    text-decoration: none;
     font-family: cursive;
   }
   a:hover {
