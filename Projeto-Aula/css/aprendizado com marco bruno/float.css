@@ -1,0 +1,27 @@
+.element_example{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.element_example_first{
+    background-color: aquamarine;
+    float: left;
+}
+
+.element_example_second{
+    background-color: cornflowerblue;
+    float: left;
+}
+
+article{
+    background-color: yellow;
+    overflow: hidden;
+}
+
+p{
+    clear:both;
+}
