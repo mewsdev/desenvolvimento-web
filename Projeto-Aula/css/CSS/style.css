@@ -7,6 +7,7 @@
     background-position: center center;
   }
   
+
   .texto{
       font-family: cursive;
       font-size: 150%;
@@ -145,26 +146,26 @@
   a {
     text-decoration: none;
   }
-  a:link {
-    color: green;
+  a:link { /* nao visitado */
+    color: rgb(246, 248, 138);
     background-color: transparent;
     text-decoration: none; 
     font-family: cursive;
   }
-  a:visited {
-    color: lightcoral;
+  a:visited { /* ja foi visitado */
+    color: rgb(247, 125, 125);
     background-color: transparent;
     text-decoration: none;
     font-family: cursive;
   }
-  a:hover {
+  a:hover { /*mouse em cima */
     color: pink;
     background-color: transparent;
     text-decoration: none;
     font-family: cursive;
   }
-  a:active {
-    color: rgb(230, 199, 220);
+  a:active { /* clickado */
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
     font-family: cursive;
